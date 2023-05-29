@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".LoginActivity"
+    >
+
+    <TextView
+        android:id="@+id/login_header_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:layout_marginTop="22dp"
+        />
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_header_txt"
+        android:hint="E-mail"
+        android:layout_marginTop="22dp"
+        />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_et"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="22dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_et"
+        android:background="@color/cardview_dark_background"
+        android:gravity="center"
+        android:text="Login"
+        android:layout_marginTop="22dp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        android:onClick="LogIn"
+        />
+
+    <TextView
+        android:id="@+id/dont_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an Account? Click Here!"
+        android:layout_below="@id/login_btn"
+        android:layout_marginTop="22dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

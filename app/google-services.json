@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68803682299",
+    "firebase_url": "https://housemate-997ed-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "housemate-997ed",
+    "storage_bucket": "housemate-997ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68803682299:android:68ac48de87202b2177b55e",
+        "android_client_info": {
+          "package_name": "com.example.mobilproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68803682299-94jb052nf3v4nm68lu8oe55usf860ptn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobilproje",
+            "certificate_hash": "5b0dbc7e770f9282724319b67610b5e901687ffc"
+          }
+        },
+        {
+          "client_id": "68803682299-cbp2hvttrlgsrevo39vkb2ojs12ho3vu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWF-y_reaK6N8N8suoHrpIySB5XOB1OkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68803682299-cbp2hvttrlgsrevo39vkb2ojs12ho3vu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
